@@ -1,0 +1,45 @@
+name: al_fotiha
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # youtube
+  youtube_player_flutter: ^9.1.1
+
+  #database
+  sqflite: ^2.4.1
+  path_provider: ^2.1.5
+
+  #audio
+  flutter_sound: ^9.3.2
+  audio_waveforms: ^1.2.0
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
